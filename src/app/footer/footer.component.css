@@ -1,0 +1,7 @@
+.footer {
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Inconsolata', monospace; 
+    font-size: 115%;
+}
