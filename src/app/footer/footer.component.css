@@ -2,6 +2,13 @@
     position: relative;
     padding: 1rem;
     text-align: center;
-    font-family: 'Inconsolata', monospace; 
-    font-size: 115%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;  
+    font-size: 1.2em; 
 }

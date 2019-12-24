@@ -1,4 +1,7 @@
 p {
-    font-family: 'Roboto Mono',monospace;
-    font-size: 110%;
+    /* font-family: 'Roboto Mono',monospace;
+    font-size: 110%; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
 }
