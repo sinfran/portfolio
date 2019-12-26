@@ -3,3 +3,18 @@ ul {
     font-size: 1.1em;
     font-weight: 300;
 }
+
+a {
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;  
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+

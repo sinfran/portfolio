@@ -1,11 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    background-color: #f9f4e6; ;
+    /* background-color: #f9f4e6;  */
+    background-color: white;
 }
 
 .jumbotron {
-    background-color: #f9f4e6;;
+    /* background-color: #f9f4e6; */
+    background-color: white;
+}
+
+.subheading {
+    font-family: Roboto, sans-serif;
 }
 
 .title 
@@ -20,7 +26,8 @@ body {
 
 .navbar-default 
 {
-    background-color:#f9f4e6; 
+    /* background-color:#f9f4e6;  */
+    background-color: white;
 }
 
 .custom-nav 
@@ -48,3 +55,22 @@ body {
     background-color: #eefdf5;
     text-decoration: none;
 }
+
+.project-image {
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+/* .custom-dialog-container .mat-dialog-container img {
+    padding: -1;
+    width: auto;
+    height: 350px;
+} */
+
+
+html, body { height: 100%; }
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

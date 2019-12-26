@@ -2,16 +2,16 @@
     <div class="container  text-center" id="intro">
         <h1 class="title ">All Projects</h1>
         <ul class="custom-nav" style="padding: 0;">
-            <li><a class="link-nav" href="#">Research</a></li>
+            <li><a class="link-nav">Research</a></li>
             <li></li>
-            <li><a class="link-nav" href="#">Programming</a></li>
+            <li><a class="link-nav">Programming</a></li>
             <li></li>
-            <li><a class="link-nav" href="#">Artwork</a></li>
+            <li><a class="link-nav">Artwork</a></li>
         </ul>
     </div>
 
 
-<div class="album py-5 px-0">
+ <div class="album py-5 px-0">
     <div class="container projects" id="projects">
         <div class="row">
             <div class="col-lg-4">
@@ -27,15 +27,14 @@
             </div>
             <div class="col-lg-4">
                 <div class="card" >
-                    <a (click)='initProject()'>
+                    <a routerLink="../shakespeer">
                         <img src="../../assets/imgs/shakespeer-card.png" class="card-img-top" alt="...">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">ShakesPeer: Visualizing Character Relationships in Shakespearean Literature</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2019</h6>
-                        <a href="#" class="card-link">GitHub</a>
-                        <a href="#" class="card-link">Learn More</a>
-                    </div>
+                         <a href="https://github.com/kevin-chow/ShakesPeer" class="text-muted">GitHub</a>&nbsp;&nbsp;&nbsp;
+                        <a routerLink="../shakespeer" class="text-muted">Learn More</a> 
+                   </div>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -43,7 +42,9 @@
                 <img src="../../assets/imgs/436d.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">OpenGL C++ Tower Defense/Platformer Game</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                         <h6 class="card-subtitle mb-2 text-muted">2019</h6> 
+                         <a href="https://github.com/terbb/Space-Pearates" class="text-muted">GitHub</a>&nbsp;&nbsp;&nbsp;
+                        <a href="#" class="text-muted">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -54,8 +55,9 @@
                 <div class="card" >
                 <img src="../../assets/imgs/speech.png" class="card-img-top">
                     <div class="card-body">
-                        <h5 class="card-title">Speech Shapes: Using Voice to Create 3D Geometries</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">2019</h6>
+                        <h5 class="card-title">Speech Shapes</h5>
+                        <h6 class="card-subtitle text-muted">Using Voice to Create 3D Geometries</h6>
+                        <a href="https://github.com/sinfran/speech-shapes" class="text-muted">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -63,3 +65,8 @@
     </div>
 </div>
 </div>
+
+
+
+
+<router-outlet></router-outlet>
