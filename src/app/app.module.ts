@@ -14,6 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ShakespeerComponent } from './shakespeer/shakespeer.component';
 import { NgxUiLoaderModule, NgxUiLoaderConfig, SPINNER } from  'ngx-ui-loader';
+import { ArInstructionsComponent } from './ar-instructions/ar-instructions.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,9 @@ const routes: Routes = [
   },
   {
     path: 'about', component: AboutComponent
+  },
+  {
+    path: 'ar-instructions', component: ArInstructionsComponent
   },
   {
     path: 'shakespeer', component: ShakespeerComponent
@@ -45,7 +49,8 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig = {
     FooterComponent,
     AboutComponent,
     ModalComponent,
-    ShakespeerComponent
+    ShakespeerComponent,
+    ArInstructionsComponent
   ],
   imports: [
     BrowserModule,
