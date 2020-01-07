@@ -5,3 +5,15 @@ p {
     font-size: 1.1em;
     font-weight: 300;
 }
+
+.profile-image {
+    width:25%; 
+    height: auto;
+}
+
+@media (max-width: 800px) {
+    .profile-image {
+        width:50%; 
+        height: auto;
+    }
+}
