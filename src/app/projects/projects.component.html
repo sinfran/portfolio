@@ -1,74 +1,60 @@
-<div class="jumbotron">
+<div class="jumbotron" style="margin-left: 6%; margin-right: 6%;">
     <div class="container  text-center" id="intro">
-        <h1 class="title ">Featured Projects</h1>
-        <!-- <ul class="custom-nav" style="padding: 0;">
-            <li><a class="link-nav">Research</a></li>
-            <li></li>
-            <li><a class="link-nav">Programming</a></li>
-            <li></li>
-            <li><a class="link-nav">Artwork</a></li>
-        </ul> -->
-    </div>
-
-
- <div class="album py-5 px-0">
+        <h1 [@slowFade]="'in'" class="title">PROJECTS</h1>
+        <br/>
+<!-- </div> -->
+ <div class="album py-1 px-0">
     <div class="container projects" id="projects">
+        <!-- <hr [@slowFade]="'in'"/> -->
+        <br/>
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
                 <div class="card">
                     <a routerLink='../ar-instructions'>
-                        <img src="assets/imgs/placeholder.png" class="card-img-top fade-in">
+                        <img src="assets/imgs/ikea.jpeg" class="card-img-top fade-in">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Developing Design Guidelines for AR-Based Assembly</h5>
-                    </div>
+                    <a class="card-info">Guidelines for Augmented Reality Assembly Manuals</a>
+                    <!-- <h6 class="card-subtitle">Learn More</h6>
+                    <br/> -->
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
                 <div class="card" >
                     <a routerLink="../shakespeer">
                         <img src="assets/imgs/shakespeer-card.png" class="card-img-top fade-in" alt="...">
                     </a>
-                    <div class="card-body">
-                        <h5 class="card-title">ShakesPeer: Visualizing Character Relationships in Shakespearean Literature</h5>
-                       <a class="external-link text-muted" href="https://github.com/kevin-chow/ShakesPeer">GitHub</a>&nbsp;&nbsp;
+                 
+                        <a class="card-info">Visualizing Relationships in Shakespeare Plays</a>
+                        <!-- <h6 class="card-subtitle">Learn more</h6>
+                        <br/> -->
+                       <!-- <a class="external-link text-muted" href="https://github.com/kevin-chow/ShakesPeer">GitHub</a>&nbsp;&nbsp; -->
                     <!-- <a class="external-link text-muted" routerLink="../shakespeer">Details</a>  -->
-                   </div>
+                  
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-12 col-lg-6">
                 <div class="card" >
+                    <a>
                 <img src="assets/imgs/436d.jpg" class="card-img-top fade-in" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">OpenGL C++ Tower Defense/Platformer Game</h5>
+            </a>
+                        <a class="card-info">OpenGL C++ Tower Defense/Platformer Game</a>
                          <!-- <a href="https://github.com/terbb/Space-Pearates" class="text-muted">GitHub</a>&nbsp;&nbsp;&nbsp;
                         <a href="#" class="text-muted">Learn More</a> -->
-                        <a class="external-link text-muted">GitHub</a>
-                    </div>
+                        <!-- <a class="external-link text-muted">GitHub</a> -->
+                 
                 </div>
             </div>
-           
-        <!-- </div>
-        <div class="row"> -->
             
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-6">
                 <div class="card" >
                 <img src="assets/imgs/speech.png" class="card-img-top fade-in">
                     <div class="card-body">
-                        <h5 class="card-title">Speech Shapes: Using Voice to Create 3D Geometries</h5>
+                        <h5 class="card-text"><b>Speech Shapes</b>: Using Voice to Create 3D Geometries</h5>
                         <a class="external-link text-muted" href="https://github.com/sinfran/speech-shapes">GitHub</a>
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="col-12 col-md-6 col-lg-4">
-                <div class="card" >
-                <img src="assets/imgs/procreate.PNG" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="card-title">2019 Sketchbook Dump</h5>
-                    </div>
-                </div>
-            </div> -->
+            </div>
         </div>
     </div>
 </div>

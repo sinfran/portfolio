@@ -1,14 +1,16 @@
 .footer {
-    position: relative;
+    /* position: relative; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     padding: 1rem;
     text-align: center;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Heebo", sans-serif;
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0;
 }
 
 p {
-    font-family: 'Inconsolata', monospace;  
-    font-size: 1.2em; 
+    font-size: 1.1em; 
 }
