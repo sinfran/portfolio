@@ -1,0 +1,45 @@
+//=================================================
+// Header
+//=================================================
+
+header {
+    > .wrapper {
+        padding-top: $header_padding_t;
+        padding-bottom: $header_padding_b;
+        
+        @media #{$media_sm} {
+            .menu-toggle {
+                .icon-menu {
+                    display: none;
+                }
+            }
+            
+            .w-75 {
+                width: 100% !important;
+            }
+        }
+    }
+    
+    .menu-secondary {
+        position: absolute;
+        z-index: 1;
+        padding-bottom: 1.03rem;
+        bottom: 0;
+        
+        @media #{$media_lg} {
+            padding-bottom: 2.91rem;
+        }
+        
+        ul {
+            margin-bottom: -0.88rem;
+            
+            li {
+                margin-bottom: 0.88rem;
+                
+                @media #{$media_lg} {
+                    margin-bottom: 1.63rem;
+                }
+            }
+        }
+    }
+}

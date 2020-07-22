@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/css/style.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/themes/prism.css">
+        <title>UI | Oxer - Minimal Portfolio HTML Template</title>
+
+        <!-- Useful meta tags -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="robots" content="index, follow, noodp">
+        <meta name="googlebot" content="index, follow">
+        <meta name="google" content="notranslate">
+        <meta name="format-detection" content="telephone=no">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.ico" sizes="16x16">
+    </head>
+    <body class="ui bg-fixed bg-line">
+        <div class="loading">
+            <div class="wrapper h-100">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="loading-content">
+                        <div class="logo logo-secondary">
+                            <img class="animated zoomin" src="assets/img/logo/logo-2.svg" alt="Logo">
+                        </div>
+                    </div>
+                    
+                    <!--[if lte IE 9]>
+                        <div class="browser">
+                            <div class="wrapper">
+                                <h3>You are using an <strong>outdated</strong> browser. Please <a href="https://www.outdatedbrowser.com/">upgrade your browser</a> to improve your experience.</h3>
+                            </div>  
+                        </div>
+                    <![endif]-->
+                </div>
+            </div><!-- .wrapper -->
+        </div><!-- .loading -->
+        
+        <header id="header" class="site-header">
+            <div class="wrapper d-flex justify-content-between">
+                <div class="align-self-center">                    
+                    <a title="Logo" class="logo primary-logo transform-scale-h" href="index.html">
+                        <img src="assets/img/logo/logo.svg" alt="Logo">
+                    </a>
+                </div>
+            </div><!-- .wrapper -->
+        </header><!-- .site-header -->
+
+        <main id="main" class="site-main">
+            <section id="page-title">
+                <div class="wrapper">
+                    <div class="title position-relative">
+                        <h1>UI<span class="dot">.</span></h1>
+
+                        <div class="title-clone">Oxer.</div>
+                    </div>
+                </div>
+            </section><!-- #page-title -->
+
+            <section id="examples" class="block spacer p-top-xl">
+                <div class="wrapper">
+                    <div class="row gutter-width-lg">
+                        <div class="col-xl-8 col-lg-8 col-md-8 order-xl-0 order-lg-0 order-md-0 order-1">
+                            <div id="content" class="block">
+                                <h1 class="small">Content</h1>
+                                
+                                <div id="typography" class="block spacer m-top-xl">
+                                    <h2><span class="line">Typography</span></h2>
+                                    <p>There are examples of typography, including global settings, headings, body text, lists and more.</p>
+                                    
+                                    <div id="headings">
+                                        <h4>Headings</h4>
+                                        
+                                        <div class="bd-example">
+                                            <h1 class="h">H1</h1>
+                                            <h1 class="small">H1 small</h1>
+                                            <h2>H2</h2>
+                                            <h3>H3</h3>
+                                            <h4>H4</h4>
+                                            <h5>H5</h5>
+                                            <h6>H6</h6>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;h1 class=&quot;h&quot;&gt;H1&lt;/h1&gt;
+&lt;h1 class=&quot;small&quot;&gt;H1 small&lt;/h1&gt;
+&lt;h2&gt;H2&lt;/h2&gt;
+&lt;h3&gt;H3&lt;/h3&gt;
+&lt;h4&gt;H4&lt;/h4&gt;
+&lt;h5&gt;H5&lt;/h5&gt;
+&lt;h6&gt;H6&lt;/h6&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #headings -->
+                                    
+                                    <div id="customizing-headings">
+                                        <h4>Customizing headings</h4>
+                                        
+                                        <div class="bd-example">
+                                            <h1 class="small">Fancy display <span class="line">heading</span></h1>
+                                            <h1 class="small">Fancy display heading<span class="dot">.</span></h1>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;h1 class=&quot;small&quot;&gt;Fancy display &lt;span class=&quot;line&quot;&gt;heading&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 class=&quot;small&quot;&gt;Fancy display heading&lt;span class=&quot;dot&quot;&gt;.&lt;/span&gt;&lt;/h1&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #customizing-headings -->
+                                    
+                                    <div id="inline-text-elements">
+                                        <h4>Inline text elements</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                                            <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                                            <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                                            <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+                                            <p><u>This line of text will render as underlined</u></p>
+                                            <p><small>This line of text is meant to be treated as fine print.</small></p>
+                                            <p><strong>This line rendered as bold text.</strong></p>
+                                            <p><em>This line rendered as italicized text.</em></p>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p&gt;You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;This line of text is meant to be treated as deleted text.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;This line of text is meant to be treated as no longer accurate.&lt;/s&gt;&lt;/p&gt;
+&lt;p&gt;&lt;ins&gt;This line of text is meant to be treated as an addition to the document.&lt;/ins&gt;&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;This line of text will render as underlined&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This line rendered as bold text.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This line rendered as italicized text.&lt;/em&gt;&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #inline-text-elements -->
+                                    
+                                    <div id="abbreviations">
+                                        <h4>Abbreviations</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p><abbr title="attribute">attr</abbr></p>
+                                            <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p&gt;&lt;abbr title=&quot;attribute&quot;&gt;attr&lt;/abbr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&quot;HyperText Markup Language&quot; class=&quot;initialism&quot;&gt;HTML&lt;/abbr&gt;&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #abbreviations -->
+                                    
+                                    <div id="blockquotes">
+                                        <h4>Blockquotes</h4>
+                                        
+                                        <div class="bd-example">
+                                            <blockquote>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                            </blockquote>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;blockquote&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.&lt;/p&gt;
+&lt;/blockquote&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #blockquotes -->
+                                    
+                                    <div id="lists">
+                                        <h4>Lists</h4>
+                                        <p>Display a list of items inside your content, rendered with a number, a bullet, or none.</p>
+                                        
+                                        <div id="unordered-list">
+                                            <h6>Unordered list</h6>
+                                        
+                                            <div class="bd-example">
+                                                <ul>
+                                                    <li>Lorem ipsum</li>
+                                                    <li>Phasellus iaculis</li>
+                                                    <li>Nulla volutpat</li>
+                                                </ul>
+                                            </div>
+                                        
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;ul&gt;
+    &lt;li&gt;Lorem ipsum&lt;/li&gt;
+    &lt;li&gt;Phasellus iaculis&lt;/li&gt;
+    &lt;li&gt;Nulla volutpat&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #unordered-lists -->
+                                        
+                                        <div id="ordered-lists">
+                                            <h6>Ordered list</h6>
+                                        
+                                            <div class="bd-example">
+                                                <ol>
+                                                    <li>Lorem ipsum</li>
+                                                    <li>Phasellus iaculis</li>
+                                                    <li>Nulla volutpat</li>
+                                                </ol>
+                                            </div>
+                                        
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Lorem ipsum&lt;/li&gt;
+    &lt;li&gt;Phasellus iaculis&lt;/li&gt;
+    &lt;li&gt;Nulla volutpat&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #ordered-lists -->
+                                    
+                                        <div id="unstyled-lists">
+                                            <h6>Unstyled list</h6>
+                                            
+                                            <div class="bd-example">
+                                                <ul class="list-unstyled">
+                                                    <li>Lorem ipsum</li>
+                                                    <li>Phasellus iaculis</li>
+                                                    <li>Nulla volutpat</li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;ul class=&quot;list-unstyled&quot;&gt;
+    &lt;li&gt;Lorem ipsum&lt;/li&gt;
+    &lt;li&gt;Phasellus iaculis&lt;/li&gt;
+    &lt;li&gt;Nulla volutpat&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #unstyled-lists -->
+                                    </div><!-- #lists -->
+                                    
+                                    
+                                    <div id="text-alignment">
+                                        <h4>Text alignment</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p class="text-left">Left aligned text on all viewport sizes.</p>
+                                            <p class="text-center">Center aligned text on all viewport sizes.</p>
+                                            <p class="text-right">Right aligned text on all viewport sizes.</p>
+                                            
+                                            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                                        </div>
+                                    
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p class=&quot;text-left&quot;&gt;Left aligned text on all viewport sizes.&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;Center aligned text on all viewport sizes.&lt;/p&gt;
+&lt;p class=&quot;text-right&quot;&gt;Right aligned text on all viewport sizes.&lt;/p&gt;
+
+&lt;p class=&quot;text-justify&quot;&gt;Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #text-alignment -->
+
+                                    <div id="text-transform">
+                                        <h4>Text transform</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p class="text-lowercase">Lowercased text.</p>
+                                            <p class="text-uppercase">Uppercased text.</p>
+                                            <p class="text-capitalize">CapiTaliZed text.</p>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p class=&quot;text-lowercase&quot;&gt;Lowercased text.&lt;/p&gt;
+&lt;p class=&quot;text-uppercase&quot;&gt;Uppercased text.&lt;/p&gt;
+&lt;p class=&quot;text-capitalize&quot;&gt;CapiTaliZed text.&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #text-transform -->
+                                    
+                                    <div id="text-color">
+                                        <h4>Text color</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p class="text-primary">.text-primary</p>
+                                            <p class="text-secondary">.text-secondary</p>
+                                            <p class="text-success">.text-success</p>
+                                            <p class="text-danger">.text-danger</p>
+                                            <p class="text-warning">.text-warning</p>
+                                            <p class="text-info">.text-info</p>
+                                            <p class="text-light bg-dark">.text-light</p>
+                                            <p class="text-dark">.text-dark</p>
+                                            <p class="text-body">.text-body</p>
+                                            <p class="text-muted">.text-muted</p>
+                                            <p class="text-white bg-dark">.text-white</p>
+                                            <p class="text-black-50">.text-black-50</p>
+                                            <p class="text-white-50 bg-dark">.text-white-50</p>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p class=&quot;text-primary&quot;&gt;.text-primary&lt;/p&gt;
+&lt;p class=&quot;text-secondary&quot;&gt;.text-secondary&lt;/p&gt;
+&lt;p class=&quot;text-success&quot;&gt;.text-success&lt;/p&gt;
+&lt;p class=&quot;text-danger&quot;&gt;.text-danger&lt;/p&gt;
+&lt;p class=&quot;text-warning&quot;&gt;.text-warning&lt;/p&gt;
+&lt;p class=&quot;text-info&quot;&gt;.text-info&lt;/p&gt;
+&lt;p class=&quot;text-light bg-dark&quot;&gt;.text-light&lt;/p&gt;
+&lt;p class=&quot;text-dark&quot;&gt;.text-dark&lt;/p&gt;
+&lt;p class=&quot;text-body&quot;&gt;.text-body&lt;/p&gt;
+&lt;p class=&quot;text-muted&quot;&gt;.text-muted&lt;/p&gt;
+&lt;p class=&quot;text-white bg-dark&quot;&gt;.text-white&lt;/p&gt;
+&lt;p class=&quot;text-black-50&quot;&gt;.text-black-50&lt;/p&gt;
+&lt;p class=&quot;text-white-50 bg-dark&quot;&gt;.text-white-50&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #text-color -->
+                                    
+                                    <div id="text-color-weight">
+                                        <h4>Text color weight</h4>
+                                        
+                                        <div class="bd-example">
+                                            <p class="text-secondary">.text-secondary</p>
+                                            <p class="text-secondary regular">.text-secondary</p>
+                                            <p class="text-secondary bold">.text-secondary</p>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p class=&quot;text-secondary&quot;&gt;.text-secondary&lt;/p&gt;
+&lt;p class=&quot;text-secondary regular&quot;&gt;.text-secondary&lt;/p&gt;
+&lt;p class=&quot;text-secondary bold&quot;&gt;.text-secondary&lt;/p&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #text-color-weight -->
+                                </div><!-- #typography -->
+                                
+                                <div id="icon" class="block spacer m-top-xl">
+                                    <h2><span class="line">Icon</span></h2>
+                                    <p>User Interface includes custom styled icons generated with Fontello icons font generator.</p>
+                                    
+                                    <div class="bd-example">
+                                        <p><i class="icon-c icon-menu"></i></p>
+                                        <p><i class="icon-c icon-close"></i></p>
+                                        <p><i class="icon-c icon-search"></i></p>
+                                        <p><i class="icon-c icon-arrow-up"></i></p>
+                                        <p><i class="icon-c icon-arrow-down"></i></p>
+                                        <p><i class="icon-c icon-arrow-left"></i></p>
+                                        <p><i class="icon-c icon-arrow-right"></i></p>
+                                    </div>
+                                    
+                                    <figure class="highlight">
+                                        <pre><code class="language-html">&lt;p&gt;&lt;i class=&quot;icon-c icon-menu&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-close&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-search&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-arrow-up&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-arrow-down&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-arrow-left&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i class=&quot;icon-c icon-arrow-right&quot;&gt;&lt;/i&gt;&lt;/p&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #icon -->
+                                
+                                <div id="image" class="block spacer m-top-xl">
+                                    <h2><span class="line">Image</span></h2>
+                                    <p>Information for opting your images into responsive behaviour (images never become larger than their parent elements). All of the image styles are added via classes.</p>
+                                    
+                                    <div id="responsive-images">
+                                        <h4>Responsive images</h4>
+                                        
+                                        <div class="bd-example">
+                                            <img src="assets/img/placeholder/600x600.jpg" class="img-fluid" alt="Responsive image">
+                                        </div>
+                                        
+                                        <figure class="highlight"><pre><code class="language-html">&lt;img src=&quot;...&quot; class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre></figure>
+                                    </div><!-- #responsive-images -->
+                                                                        
+                                    <div id="object-fit-size">
+                                        <h4>Object fit size</h4>
+                                        
+                                        <div class="bd-example">
+                                            <div class="row pb-3">
+                                                <div class="col-4">
+                                                    <div class="img object-fit size-5">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 112% -->
+                                                </div>
+                                                
+                                                <div class="col-4">
+                                                    <div class="img object-fit">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 100% -->
+                                                </div>
+                                                
+                                                <div class="col-4">
+                                                    <div class="img object-fit size-4">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 95% -->
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row pt-3">
+                                                <div class="col-4">
+                                                    <div class="img object-fit size-3">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 85% -->
+                                                </div>
+                                                
+                                                <div class="col-4">
+                                                    <div class="img object-fit size-2">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 54% -->
+                                                </div>
+                                                
+                                                <div class="col-4">
+                                                    <div class="img object-fit size-1">
+                                                        <div class="object-fit-cover">
+                                                            <img src="assets/img/placeholder/600x600.jpg" alt="Objet fit">
+                                                        </div>
+                                                    </div><!-- Height: 47% -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;div class=&quot;row pb-3&quot;&gt;
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit size-5&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 112% --&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 100% --&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit size-4&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 95% --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row pt-3&quot;&gt;
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit size-3&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 85% --&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit size-2&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 54% --&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-4&quot;&gt;
+        &lt;div class=&quot;img object-fit size-1&quot;&gt;
+            &lt;div class=&quot;object-fit-cover&quot;&gt;
+                &lt;img src=&quot;...&quot; alt=&quot;Objet fit&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- Height: 47% --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #object-fit-size -->
+                                </div><!-- #image -->
+                            </div><!-- #content -->
+                            
+                            <div id="components" class="block spacer m-top-xl">
+                                <h1 class="small">Components</h1>
+                                
+                                <div id="alert" class="block spacer m-top-xl">
+                                    <h2><span class="line">Alert</span></h2>
+                                    <p>Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+                                    
+                                    <div class="bd-example">
+                                        <div class="alert alert-primary" role="alert">
+                                            A simple primary alert—check it out!
+                                        </div>
+                                        <div class="alert alert-secondary" role="alert">
+                                            A simple secondary alert—check it out!
+                                        </div>
+                                        <div class="alert alert-success" role="alert">
+                                            A simple success alert—check it out!
+                                        </div>
+                                        <div class="alert alert-danger" role="alert">
+                                            A simple danger alert—check it out!
+                                        </div>
+                                        <div class="alert alert-warning" role="alert">
+                                            A simple warning alert—check it out!
+                                        </div>
+                                        <div class="alert alert-info" role="alert">
+                                            A simple info alert—check it out!
+                                        </div>
+                                        <div class="alert alert-light" role="alert">
+                                            A simple light alert—check it out!
+                                        </div>
+                                        <div class="alert alert-dark" role="alert">
+                                            A simple dark alert—check it out!
+                                        </div>
+                                    </div>
+                                    
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;div class=&quot;alert alert-primary&quot; role=&quot;alert&quot;&gt;
+    A simple primary alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-secondary&quot; role=&quot;alert&quot;&gt;
+    A simple secondary alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+    A simple success alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;
+    A simple danger alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+    A simple warning alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+    A simple info alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-light&quot; role=&quot;alert&quot;&gt;
+    A simple light alert&mdash;check it out!
+&lt;/div&gt;
+&lt;div class=&quot;alert alert-dark&quot; role=&quot;alert&quot;&gt;
+    A simple dark alert&mdash;check it out!
+&lt;/div&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #alert -->
+                            
+                                <div id="button" class="block spacer m-top-xl">
+                                    <h2><span class="line">Button</span></h2>
+                                    <p>Oxer includes several predefined button styles, each serving its own semantic purpose, with a few extras thrown in for more control. </p>
+                                
+                                    <div class="bd-example">
+                                        <button type="button" class="btn btn-primary">Primary</button>
+                                        <button type="button" class="btn btn-secondary">Secondary</button>
+                                        <button type="button" class="btn btn-success">Success</button>
+                                        <button type="button" class="btn btn-danger">Danger</button>
+                                        <button type="button" class="btn btn-warning">Warning</button>
+                                        <button type="button" class="btn btn-info">Info</button>
+                                        <button type="button" class="btn btn-light">Light</button>
+                                        <button type="button" class="btn btn-dark">Dark</button>
+                                        <button type="button" class="btn btn-link">Link</button>
+                                    </div>
+                                
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot;&gt;Dark&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;</code></pre>
+                                    </figure>
+
+                                    <div id="outline-buttons">
+                                        <h4>Outline buttons</h4>
+
+                                        <div class="bd-example">
+                                            <button type="button" class="btn btn-outline-primary">Primary</button>
+                                            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                                            <button type="button" class="btn btn-outline-success">Success</button>
+                                            <button type="button" class="btn btn-outline-danger">Danger</button>
+                                            <button type="button" class="btn btn-outline-warning">Warning</button>
+                                            <button type="button" class="btn btn-outline-info">Info</button>
+                                            <button type="button" class="btn btn-outline-light">Light</button>
+                                            <button type="button" class="btn btn-outline-dark">Dark</button>
+                                        </div>
+                                
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-primary&quot;&gt;Primary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-secondary&quot;&gt;Secondary&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-success&quot;&gt;Success&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-danger&quot;&gt;Danger&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-warning&quot;&gt;Warning&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-info&quot;&gt;Info&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-light&quot;&gt;Light&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark&quot;&gt;Dark&lt;/button&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #outline-buttons -->
+                                    
+                                    <div id="button-hover">
+                                        <h4>Button hover</h4>
+                                        
+                                        <div class="bd-example">
+                                            <button type="button" class="btn btn-dark transform-scale-h">Dark</button>
+                                            <button type="button" class="btn btn-outline-dark transform-scale-h">Dark</button>
+                                            <button type="button" class="btn btn-link transform-scale-h">Dark</button>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;btn btn-dark transform-scale-h&quot;&gt;Dark&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-outline-dark transform-scale-h&quot;&gt;Dark&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-link transform-scale-h&quot;&gt;Dark&lt;/button&gt;</code></pre>
+                                        </figure>
+                                    </div>
+
+                                    <div id="sizes">
+                                        <h4>Sizes</h4>
+
+                                        <div class="bd-example">
+                                            <button type="button" class="btn btn-primary btn-sm">Small</button>
+                                            <button type="button" class="btn btn-primary">Normal</button>
+                                            <button type="button" class="btn btn-primary btn-lg">Large</button>
+                                        </div>
+                                
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-sm&quot;&gt;Small&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Normal&lt;/button&gt;
+&lt;button type=&quot;button&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Large&lt;/button&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #sizes -->
+                                </div><!-- #button -->
+                                
+                                <div id="link" class="block spacer m-top-xl">
+                                    <h2><span class="line">Link</span></h2>
+                                    <p>User Interface includes custom made classes for links. The link can be without a hover or with scalable hover.</p>
+                                
+                                    <div class="bd-example">
+                                        <a title="Link" class="btn btn-link border-0 p-0" href="#">Link</a>
+                                        <a title="Link hover scale" class="btn btn-link border-0 p-0 transform-scale-h" href="#">Link hover scale</a>
+                                    </div>
+                                    
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;a title=&quot;Link&quot; class=&quot;btn btn-link border-0 p-0&quot; href=&quot;#&quot;&gt;Link&lt;/a&gt;
+&lt;a title=&quot;Link hover scale&quot; class=&quot;btn btn-link border-0 p-0 transform-scale-h&quot; href=&quot;#&quot;&gt;Link hover scale&lt;/a&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #link -->
+                                
+                                <div id="card" class="block spacer m-top-xl">
+                                    <h2><span class="line">Card</span></h2>
+                                    <p>Cards provide a flexible and extensible content container. It supports a wide variety of content, including images, text, links, and more.</p>
+                                    
+                                    <div class="bd-example">
+                                        <div class="row gutter-width-60 with-pb-60">
+                                            <div class="col-6">
+                                                <div class="card card-post">
+                                                    <div class="card-top position-relative">
+                                                        <a title="Card" href="">
+                                                            <div class="img object-fit overflow-hidden">
+                                                                <div class="object-fit-cover transform-scale-h">
+                                                                    <img class="card-top-img" src="assets/img/placeholder/600x600.jpg" alt="Card">
+                                                                </div>
+                                                            </div>
+                                                        </a>
+
+                                                        <div class="card-category d-none d-sm-block">
+                                                            <a title="Category" class="btn btn-sm btn-light transform-scale-h border-0" href="">Category</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">
+                                                            <a title="Card body" href="">Card body</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-6">
+                                                <div class="card card-post">
+                                                    <div class="card-top position-relative">
+                                                        <a title="Card" href="">
+                                                            <div class="img object-fit overflow-hidden">
+                                                                <div class="object-fit-cover transform-scale-h">
+                                                                    <img class="card-top-img" src="assets/img/placeholder/600x600.jpg" alt="Card">
+                                                                </div>
+                                                            </div>
+                                                        </a>
+
+                                                        <div class="card-category d-none d-sm-block">
+                                                            <a title="Category" class="btn btn-sm btn-light transform-scale-h border-0" href="">Category</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="card-body border">
+                                                        <h5 class="card-title">
+                                                            <a title="Card body" href="">Card body</a>
+                                                        </h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;div class=&quot;row gutter-width-60 with-pb-60&quot;&gt;
+    &lt;div class=&quot;col-6&quot;&gt;
+        &lt;div class=&quot;card card-post&quot;&gt;
+            &lt;div class=&quot;card-top position-relative&quot;&gt;
+                &lt;a title=&quot;Card&quot; href=&quot;&quot;&gt;
+                    &lt;div class=&quot;img object-fit overflow-hidden&quot;&gt;
+                        &lt;div class=&quot;object-fit-cover transform-scale-h&quot;&gt;
+                            &lt;img class=&quot;card-top-img&quot; src=&quot;...&quot; alt=&quot;Card&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;
+
+                &lt;div class=&quot;card-category d-none d-sm-block&quot;&gt;
+                    &lt;a title=&quot;Category&quot; class=&quot;btn btn-sm btn-light transform-scale-h border-0&quot; href=&quot;&quot;&gt;Category&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;card-body&quot;&gt;
+                &lt;h5 class=&quot;card-title&quot;&gt;
+                    &lt;a title=&quot;Card body&quot; href=&quot;&quot;&gt;Card body&lt;/a&gt;
+                &lt;/h5&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;col-6&quot;&gt;
+        &lt;div class=&quot;card card-post&quot;&gt;
+            &lt;div class=&quot;card-top position-relative&quot;&gt;
+                &lt;a title=&quot;Card&quot; href=&quot;&quot;&gt;
+                    &lt;div class=&quot;img object-fit overflow-hidden&quot;&gt;
+                        &lt;div class=&quot;object-fit-cover transform-scale-h&quot;&gt;
+                            &lt;img class=&quot;card-top-img&quot; src=&quot;...&quot; alt=&quot;Card&quot;&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;
+
+                &lt;div class=&quot;card-category d-none d-sm-block&quot;&gt;
+                    &lt;a title=&quot;Category&quot; class=&quot;btn btn-sm btn-light transform-scale-h border-0&quot; href=&quot;&quot;&gt;Category&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;card-body border&quot;&gt;
+                &lt;h5 class=&quot;card-title&quot;&gt;
+                    &lt;a title=&quot;Card body&quot; href=&quot;&quot;&gt;Card body&lt;/a&gt;
+                &lt;/h5&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #card -->
+                            
+                                <div id="form" class="block spacer m-top-xl">
+                                    <h2><span class="line">Form</span></h2>
+                                    <p>Several form control styles, layout options, and custom components for creating a wide variety of forms.</p>
+                                    
+                                    <div id="inputs">
+                                        <h4>Inputs</h4>
+                                        <p>Text inputs, selects and textarea.</p>
+                                        
+                                        <div id="input-primary">
+                                            <h5>Primary</h5>
+
+                                            <div class="bd-example">
+                                                <p>
+                                                    <input type="text" placeholder="Input text">
+                                                </p>
+
+                                                <p>
+                                                    <textarea placeholder="Textarea"></textarea>
+                                                </p>
+
+                                                <p>
+                                                    <select>
+                                                        <option>Select</option>
+                                                        <option>Option 1</option>
+                                                        <option>Option 2</option>
+                                                    </select>
+                                                </p>
+                                                
+                                                <p>
+                                                    <input type="checkbox" id="checkbox-input">
+                                                    <label for="checkbox-input" class="mb-0">Checkbox</label>
+                                                </p>
+                                                
+                                                <p>
+                                                    <input type="radio" id="radio-input">
+                                                    <label for="radio-input" class="mb-0">Radio</label>
+                                                </p>
+                                            </div>
+                                            
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;p&gt;
+    &lt;input type=&quot;text&quot; placeholder=&quot;Input text&quot;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;textarea placeholder=&quot;Textarea&quot;&gt;&lt;/textarea&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;select&gt;
+        &lt;option&gt;Select&lt;/option&gt;
+        &lt;option&gt;Option 1&lt;/option&gt;
+        &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;input type=&quot;checkbox&quot; id=&quot;checkbox-input&quot;&gt;
+    &lt;label for=&quot;checkbox-input&quot; class=&quot;mb-0&quot;&gt;Checkbox&lt;/label&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;input type=&quot;radio&quot; id=&quot;radio-input&quot;&gt;
+    &lt;label for=&quot;radio-input&quot; class=&quot;mb-0&quot;&gt;Radio&lt;/label&gt;
+&lt;/p&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #input-primary -->
+                                        
+                                        <div id="input-secondary">
+                                            <h5>Secondary</h5>
+                                        
+                                            <div class="bd-example">
+                                                <p>
+                                                    <input type="text" class="form-control" placeholder="Input text">
+                                                </p>        
+
+                                                <p>
+                                                    <textarea class="form-control" placeholder="Textarea"></textarea>
+                                                </p>
+                                            
+                                                <p>
+                                                    <select class="form-control">
+                                                        <option>Select</option>
+                                                        <option>Option 1</option>
+                                                        <option>Option 2</option>
+                                                    </select>
+                                                </p>
+                                                
+                                                <p class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="custom-checkbox-input">
+                                                    <label for="custom-checkbox-input" class="custom-control-label mb-0">Checkbox</label>
+                                                </p>
+                                                
+                                                <p class="custom-control custom-radio">
+                                                    <input type="radio" class="custom-control-input" id="custom-radio-input">
+                                                    <label for="custom-radio-input" class="custom-control-label mb-0">Radio</label>
+                                                </p>
+                                            </div>
+                                            
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;p&gt;
+    &lt;input type=&quot;text&quot; class=&quot;form-control&quot; placeholder=&quot;Input text&quot;&gt;
+&lt;/p&gt;        
+
+&lt;p&gt;
+    &lt;textarea class=&quot;form-control&quot; placeholder=&quot;Textarea&quot;&gt;&lt;/textarea&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;select class=&quot;form-control&quot;&gt;
+        &lt;option&gt;Select&lt;/option&gt;
+        &lt;option&gt;Option 1&lt;/option&gt;
+        &lt;option&gt;Option 2&lt;/option&gt;
+    &lt;/select&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;custom-control custom-checkbox&quot;&gt;
+    &lt;input type=&quot;checkbox&quot; class=&quot;custom-control-input&quot; id=&quot;custom-checkbox-input&quot;&gt;
+    &lt;label for=&quot;custom-checkbox-input&quot; class=&quot;custom-control-label mb-0&quot;&gt;Checkbox&lt;/label&gt;
+&lt;/p&gt;
+
+&lt;p class=&quot;custom-control custom-radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; class=&quot;custom-control-input&quot; id=&quot;custom-radio-input&quot;&gt;
+    &lt;label for=&quot;custom-radio-input&quot; class=&quot;custom-control-label mb-0&quot;&gt;Radio&lt;/label&gt;
+&lt;/p&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #input-secondary -->
+                                    </div><!-- #inputs -->
+                                    
+                                    <div id="input-group">
+                                        <h4>Input group</h4>
+                                        <p>Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs.</p>
+                                        
+                                        <div id="input-group-primary">
+                                            <h5>Primary</h5>
+                                            
+                                            <div class="bd-example">
+                                                <p class="input-group gutter-width-30">
+                                                    <span class="gutter-width">
+                                                        <input type="text" placeholder="Input text">
+                                                    </span>
+
+                                                    <span class="gutter-width">
+                                                        <input type="text" placeholder="Input text">
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;p class=&quot;input-group gutter-width-30&quot;&gt;
+    &lt;span class=&quot;gutter-width&quot;&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Input text&quot;&gt;
+    &lt;/span&gt;
+
+    &lt;span class=&quot;gutter-width&quot;&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Input text&quot;&gt;
+    &lt;/span&gt;
+&lt;/p&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #input-group-primary -->
+                                        
+                                        <div id="input-group-secondary">
+                                            <h5>Secondary</h5>
+                                        
+                                            <div class="bd-example">
+                                                <p class="input-group gutter-width-30">
+                                                    <span class="gutter-width">
+                                                        <input class="form-control" type="text" placeholder="Input text">
+                                                    </span>
+
+                                                    <span class="gutter-width">
+                                                        <input class="form-control" type="text" placeholder="Input text">
+                                                    </span>
+                                                </p>
+                                            </div>
+                                            
+                                            <figure class="highlight">
+                                            <pre><code class="language-html">&lt;p class=&quot;input-group gutter-width-30&quot;&gt;
+    &lt;span class=&quot;gutter-width&quot;&gt;
+        &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;Input text&quot;&gt;
+    &lt;/span&gt;
+
+    &lt;span class=&quot;gutter-width&quot;&gt;
+        &lt;input class=&quot;form-control&quot; type=&quot;text&quot; placeholder=&quot;Input text&quot;&gt;
+    &lt;/span&gt;
+&lt;/p&gt;</code></pre>
+                                            </figure>
+                                        </div><!-- #input-group-secondary -->
+                                    </div><!-- #input-group -->
+                                </div><!-- #form -->
+                                
+                                <div id="list-group" class="block spacer m-top-xl">
+                                    <h2><span class="line">List group</span></h2>
+                                    <p>List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</p>
+                                    
+                                    <div id="list-group-vertical">
+                                        <h3>Vertical example</h3>
+                                    
+                                        <div class="bd-example">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">Cras justo odio</li>
+                                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                <li class="list-group-item">Morbi leo risus</li>
+                                                <li class="list-group-item">Porta ac consectetur ac</li>
+                                                <li class="list-group-item">Vestibulum at eros</li>
+                                            </ul>
+                                        </div>
+                                    
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;ul class=&quot;list-group&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Porta ac consectetur ac&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #list-group-vertical -->
+                                    
+                                    <div id="list-group-horizontal">
+                                        <h3>Horizontal example</h3>
+                                        
+                                        <div class="bd-example">
+                                            <ul class="list-group list-group-horizontal">
+                                                <li class="list-group-item">Cras justo odio</li>
+                                                <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                <li class="list-group-item">Morbi leo risus</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;ul class=&quot;list-group list-group-horizontal&quot;&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;
+    &lt;li class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #list-group-horizontal -->
+                                </div>
+                                
+                                <div id="modal" class="block spacer m-top-xl">
+                                    <h2><span class="line">Modal</span></h2>
+                                    <p>Use Bootstrapís JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content. You also need to add the 'modal-adv-1' CLASS to your parent modal DIV element.</p>
+                                    
+                                    <div class="bd-example">
+                                        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#demo-modal">Demo modal</button>
+                    
+                                        <div class="modal fade modal-adv-1" id="demo-modal" tabindex="-1" role="dialog" aria-labelledby="demo-modal" aria-hidden="true">
+                                            <div class="modal-dialog modal-full" role="document">
+                                                <div class="wrapper">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close btn btn-link border-0 transform-scale-h" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">
+                                                                    <span class="align-middle">Close</span>
+                                                                    <i class="icon-c icon-close"></i>
+                                                                </span>
+                                                            </button>
+                                                        </div>
+
+                                                        <div class="modal-body d-flex justify-content-between">
+                                                            <div class="align-self-center">
+                                                                <p>Modal body text goes here.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;btn btn-dark&quot; data-toggle=&quot;modal&quot; data-target=&quot;#demo-modal&quot;&gt;Demo modal&lt;/button&gt;
+
+&lt;div class=&quot;modal fade modal-adv-1&quot; id=&quot;demo-modal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;demo-modal&quot; aria-hidden=&quot;true&quot;&gt;
+    &lt;div class=&quot;modal-dialog modal-full&quot; role=&quot;document&quot;&gt;
+        &lt;div class=&quot;wrapper&quot;&gt;
+            &lt;div class=&quot;modal-content&quot;&gt;
+                &lt;div class=&quot;modal-header&quot;&gt;
+                    &lt;button type=&quot;button&quot; class=&quot;close btn btn-link border-0 transform-scale-h&quot; data-dismiss=&quot;modal&quot; aria-label=&quot;Close&quot;&gt;
+                        &lt;span aria-hidden=&quot;true&quot;&gt;
+                            &lt;span class=&quot;align-middle&quot;&gt;Close&lt;/span&gt;
+                            &lt;i class=&quot;icon-c icon-close&quot;&gt;&lt;/i&gt;
+                        &lt;/span&gt;
+                    &lt;/button&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;modal-body d-flex justify-content-between&quot;&gt;
+                    &lt;div class=&quot;align-self-center&quot;&gt;
+                        &lt;p&gt;Modal body text goes here.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #modal -->
+                                
+                                <div id="nav" class="block spacer m-top-xl">
+                                    <h2><span class="line">Nav</span></h2>
+                                    <p>User interface includes navigation components. It is responsive and powerful navigation header which supports, branding, navigation, and more.</p>
+                                    
+                                    <div id="nav-primery">
+                                        <h4>Primary</h4>
+                                        
+                                        <div class="bd-example">
+                                            <nav class="menu-primary">
+                                                <ul class="clearfix list-unstyled">
+                                                    <li class="menu-item text-left"><a title="Demo 1" href="#">Demo 1</a></li>
+                                                    <li class="menu-item text-left current-menu-item"><a title="Demo 2" href="#">Demo 2</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;nav class=&quot;menu-primary&quot;&gt;
+    &lt;ul class=&quot;clearfix list-unstyled&quot;&gt;
+        &lt;li class=&quot;menu-item text-left&quot;&gt;&lt;a title=&quot;Demo 1&quot; href=&quot;#&quot;&gt;Demo 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li class=&quot;menu-item text-left current-menu-item&quot;&gt;&lt;a title=&quot;Demo 2&quot; href=&quot;#&quot;&gt;Demo 2&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #nav-primery -->
+                                    
+                                    <div id="nav-secondary">
+                                        <h4>Secondary</h4>
+                                        
+                                        <div class="bd-example">
+                                            <nav class="menu-secondary">
+                                                <ul class="clearfix list-unstyled">
+                                                    <li><a title="Demo 1" class="btn btn-link transform-scale-h border-0 p-0" href="#">Demo 1</a></li>
+                                                    <li><a title="Demo 2" class="btn btn-link transform-scale-h border-0 p-0" href="#">Demo 2</a></li>
+                                                    <li><a title="Demo 3" class="btn btn-link transform-scale-h border-0 p-0" href="#">Demo 3</a></li>
+                                                    <li><a title="Demo 4" class="btn btn-link transform-scale-h border-0 p-0" href="#">Demo 4</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        
+                                        <figure class="highlight">
+                                        <pre><code class="language-html">&lt;nav class=&quot;menu-secondary&quot;&gt;
+    &lt;ul class=&quot;clearfix list-unstyled&quot;&gt;
+        &lt;li&gt;&lt;a title=&quot;Demo 1&quot; class=&quot;btn btn-link transform-scale-h border-0 p-0&quot; href=&quot;#&quot;&gt;Demo 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a title=&quot;Demo 2&quot; class=&quot;btn btn-link transform-scale-h border-0 p-0&quot; href=&quot;#&quot;&gt;Demo 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a title=&quot;Demo 3&quot; class=&quot;btn btn-link transform-scale-h border-0 p-0&quot; href=&quot;#&quot;&gt;Demo 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a title=&quot;Demo 4&quot; class=&quot;btn btn-link transform-scale-h border-0 p-0&quot; href=&quot;#&quot;&gt;Demo 4&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;</code></pre>
+                                        </figure>
+                                    </div><!-- #nav-secondary -->
+                                </div><!-- #nav -->
+
+                                <div id="scroll" class="block spacer m-top-xl">
+                                    <h2><span class="line">Scroll</span></h2>
+                                    <p>Visitors can access a specific section of the page by clicking a link. You need to add an ID attribute to your target element. Then, use that ID in value of href attribute of your <code class="highlighter-rouge">&lt;a&gt;</code> tag and add a "scroll-to-id" class.</p>
+                                
+                                    <div class="bd-example">
+                                        <a class="btn btn-dark scroll-to-id" href="#content">Scroll to content</a>
+                                    </div>
+                                
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;a class=&quot;btn btn-dark scroll-to-id&quot; href=&quot;#content&quot;&gt;Scroll to content&lt;/a&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #scroll -->
+                            </div><!-- #components -->
+                            
+                            <div id="utilities" class="block spacer m-top-xl">
+                                <h1 class="small">Utilities</h1>
+                            
+                                <div id="background" class="block spacer m-top-xl">
+                                    <h2><span class="line">Background</span></h2>
+                                    <p>User Interface includes several classes of background style.</p>
+                                    
+                                    <figure class="highlight">
+                                    <pre><code class="language-html">&lt;div class=&quot;bg-gray&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-gray-light&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-gray-dark&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;bg-half-ring-center&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-half-ring-left&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-half-ring-right&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-half-ring-up&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-half-ring-center&quot;&gt;&lt;/div&gt;
+
+&lt;div class=&quot;bg-line&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;bg-fixed&quot;&gt;&lt;/div&gt;</code></pre>
+                                    </figure>
+                                </div><!-- #background -->
+                            </div><!-- #utilities -->
+                        </div><!-- .col-8 -->
+                        
+                        <div class="col-xl-4 col-lg-4 col-md-4 order-xl-1 order-lg-1 order-md-1 order-0" id="sticky">
+                            <aside id="aside" class="widget-area">
+                                <div class="widget">
+                                    <h5 class="widget-title">
+                                        <a title="Content" class="scroll-to-id" href="#content">Content</a>
+                                    </h5>
+                                    
+                                    <ul>
+                                        <li><a title="Typography" class="scroll-to-id" href="#typography">Typography</a></li>
+                                        <li><a title="Icon" class="scroll-to-id" href="#icon">Icon</a></li>
+                                        <li><a title="Image" class="scroll-to-id" href="#image">Image</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="widget">
+                                    <h5 class="widget-title">
+                                        <a title="Components" class="scroll-to-id" href="#components">Components</a>
+                                    </h5>
+                                        
+                                    <ul>
+                                        <li><a title="Alert" class="scroll-to-id" href="#alert">Alert</a></li>
+                                        <li><a title="Button" class="scroll-to-id" href="#button">Button</a></li>
+                                        <li><a title="Link" class="scroll-to-id" href="#link">Link</a></li>
+                                        <li><a title="Card" class="scroll-to-id" href="#card">Card</a></li>
+                                        <li><a title="Form" class="scroll-to-id" href="#form">Form</a></li>
+                                        <li><a title="List group" class="scroll-to-id" href="#list-group">List group</a></li>
+                                        <li><a title="Modal" class="scroll-to-id" href="#modal">Modal</a></li>
+                                        <li><a title="Nav" class="scroll-to-id" href="#nav">Nav</a></li>
+                                        <li><a title="Scroll" class="scroll-to-id" href="#scroll">Scroll</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="widget">
+                                    <h5 class="widget-title">
+                                        <a title="Utilities" class="scroll-to-id" href="#utilities">Utilities</a>
+                                    </h5>
+                                        
+                                    <ul>
+                                        <li><a title="Background" class="scroll-to-id" href="#background">Background</a></li>
+                                    </ul>
+                                </div>
+                            </aside>
+                        </div><!-- .col-4 -->
+                    </div><!-- .row -->
+                </div><!-- .wrapper -->
+            </section><!-- #example -->
+        </main><!-- .site-main -->
+
+        <footer id="footer" class="site-footer">
+            <div class="wrapper no-space">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 align-self-center">
+                        <div class="copyright">
+                            <p>© 2019 Portfolio Template By <a href="https://www.adveits.com">Adveits</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .wrapper -->
+        </footer><!-- .site-footer -->
+
+        <!-- JS -->
+        <script src="assets/js/main.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.16.0/prism.js"></script>
+    </body>
+</html>

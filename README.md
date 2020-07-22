@@ -1,27 +1,16 @@
-# Frances
+How to start working with project.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+0. You need node.js and gulp already installed
+1. Open cmd and go to the projects folder
+2. Run npm i -g npm-check-updates to install update module (if EACESS error run with sudo)
+3. Run ncu -u to update package.json modules for latest version
+4. Run npm i to install all gulp dependencies
+5. Run gulp to clean dist folder, build the new project, run local server and start watching changes
+5.1 Run gulp build to build project
+5.2 Run gulp watch to watch changes
+5.3 Run gulp html:build to build only html files
+5.4 Run gulp css:build to build only css files
+5.5 Run gulp fonts:build to build only fonts
+5.6 Run gulp icons:build to build only icons
+5.7 Run gulp image:build to build only images
+5.8 Run gulp clean to delete dist folder
